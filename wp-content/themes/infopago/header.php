@@ -16,11 +16,25 @@
 </head>
 
 <body>
-
-	<main id="main" class="pt-large">
-		<header id="header">
-			<nav id="navbar">
-			</nav>
-
-			<?php get_search_form(); ?>
-		</header>
+	<nav id="navbar" class="">
+		<div class="container">
+			<div class="row py-3">
+				<div class="col-6">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logotipo.png" alt="Revista Nossa">
+				</div>
+				<div class="col-6">
+					<div class="row">
+						<div class="col-md-auto">
+							<?php wp_nav_menu(array('menu' => 'Menu 1')); ?>
+						</div>
+						<div class="col-md-auto">
+							FALE CONOSCO
+						</div>
+						<div class="col-md-auto">
+							ÁREA DO CLIENTE
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>

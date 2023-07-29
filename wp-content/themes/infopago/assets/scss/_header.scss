@@ -1,0 +1,26 @@
+#navbar {
+    width: auto;
+    height: 80px;
+    font-family: Poppins;
+    background-color: $primary-color;
+    color: $white;
+    box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.23);
+
+    ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        flex-wrap: wrap;
+
+        li {
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+
+            a {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+}

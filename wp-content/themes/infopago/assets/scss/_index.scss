@@ -1,0 +1,98 @@
+#home {
+    background-image: url("/wp-content/themes/infopago/assets/img/arrows.png");
+    background-size: cover;
+    background-color: $secondary-color;
+
+    .description {
+        color: #FFF;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: -2.6px;
+    }
+
+    .sub-description {
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+    }
+
+    .iphone {
+        text-align: center;
+
+        img {
+            width: 350px;
+            height: auto
+        }
+
+    }
+}
+
+#selection {
+    background-image: url("/wp-content/themes/infopago/assets/img/retangulos.png");
+    background-size: cover;
+
+    .title-selection {
+        color: #383838;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+    }
+}
+
+
+#somos-rapidos {
+    background-color: #d9d9d9;
+    flex-shrink: 0;
+    padding: 50px 0px 50px 0px;
+
+    .retangulo {
+        height: 400px;
+        max-width: 720px;
+        flex: 1 0 0;
+        border-radius: 24px 0px 0px 24px;
+        background-color: #03312E;
+        padding: 20px;
+        color: $white;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+    }
+
+    .img-somos-rapidos {
+        height: 400px;
+        max-width: 720px;
+        flex: 1 0 0;
+        border-radius: 0px 24px 24px 0px;
+
+    }
+}
+
+#texting {
+    background-color: $primary-color;
+
+    .description {
+        color: #FFF;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1px;
+    }
+
+    .sub-description {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+    }
+}
