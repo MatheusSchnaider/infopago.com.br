@@ -4,6 +4,7 @@
     font-family: Poppins;
     background-color: $primary-color;
     color: $white;
+    text-decoration: none;
     box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.23);
 
     ul {
@@ -21,6 +22,32 @@
                 color: $white;
                 text-decoration: none;
             }
+        }
+    }
+
+    .fale-conosco {
+        color: $white;
+        font-weight: 600;
+        border-radius: 27px;
+        background: linear-gradient(180deg, #1CD200 31.66%, #15A000 100%);
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.30);
+
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
+    .area-cliente {
+        color: $primary-color;
+        font-weight: 600;
+        border-radius: 27px;
+        background: linear-gradient(180deg, #FFF 31.66%, #E1E1E1 100%);
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.30);
+
+        a {
+            color: $primary-color;
+            text-decoration: none;
         }
     }
 }

@@ -31,7 +31,7 @@
 
 <section id="copyright">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center my-3">
             <h2>© Todos os direitos reservados <span class="info-copy">INFOPAGO</span></h2>
         </div>
     </div>

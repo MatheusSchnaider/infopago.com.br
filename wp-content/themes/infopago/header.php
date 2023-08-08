@@ -27,11 +27,15 @@
 						<div class="col-md-auto">
 							<?php wp_nav_menu(array('menu' => 'Menu 1')); ?>
 						</div>
-						<div class="col-md-auto">
-							FALE CONOSCO
+						<div class="col-md-auto fale-conosco mr-2">
+							<a href="">
+								FALE CONOSCO
+							</a>
 						</div>
-						<div class="col-md-auto">
-							ÁREA DO CLIENTE
+						<div class="col-md-auto area-cliente">
+							<a href="">
+								ÁREA DO CLIENTE
+							</a>
 						</div>
 					</div>
 				</div>
